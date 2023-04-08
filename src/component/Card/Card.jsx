@@ -12,7 +12,7 @@ const Card = ({card, handleRemoveCard}) => {
                     {tshirt.name} 
                     <button
                     onClick={() =>handleRemoveCard(tshirt._id)}
-                    >Deleted</button>
+                    >Delete</button>
                     </p>)
             }
         </div>
