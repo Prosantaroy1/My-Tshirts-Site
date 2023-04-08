@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import Tshirt from '../Tshirt/Tshirt';
 import Card from '../Card/Card';
 import './Home.css'
+import toast  from 'react-hot-toast';
 
 const Home = () => {
     const tshirts = useLoaderData();
@@ -10,9 +11,9 @@ const Home = () => {
     const [card, setCard] = useState([]);
     const handleAddCard = tshirt => {
         //cheek to button double click
-        const exists = card.find(ts => ts._id === tshirt>_id);
+        const exists = card.find(ts => ts._id === tshirt._id);
         if(exists){
-            
+           toast('already add card T-Shirts !!!');
         }
         else{
            const newCard = [...card, tshirt];
