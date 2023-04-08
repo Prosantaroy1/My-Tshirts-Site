@@ -1,4 +1,12 @@
+.Header-Container{
+    background-color: black;
+    color: #fff;
+    margin: 0 auto;
+    padding: 12px;
+}
 .link{
     text-decoration: none;
-    margin: 20px;
+    margin: 30px;
+    color: #fff;
+    font-size: 25px;
 }

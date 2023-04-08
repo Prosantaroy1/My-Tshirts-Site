@@ -10,3 +10,13 @@
     border-radius: 10px;
     
 }
+.tshirt-details{
+     margin-left: 10px;
+}
+.btn{
+    background-color: crimson;
+    color: rgb(241, 238, 238);
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+}
